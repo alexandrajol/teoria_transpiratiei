@@ -1,54 +1,23 @@
-# Teoria Transpirației - Ziarul Școlar
+### The solution for the MPP Exam (with Gabi Mircea) 
 
-O aplicație web pentru ziarul școlar cu arhitectură client-server.
+## End goal:
+A web app for the university's newspaper.
+## 1st task:
+doar frontend
+pagina principala master detail 
+pe mijloc logo plus titlul "teoria transpiratiei"
+pe margine lista articolelor cu entitati hardcodate cu faker si pentru fiecare ai numele plus data la cere a fost postata
 
-## Structura Proiectului
+2. adauga backend 
+informatia se afla in backend 
+deci sunt 2 masini diferite
+si avem nevoie de endpointurile necesare 
 
-- **backend/** - Server Node.js cu Express
-- **frontend/** - Client React cu Vite
-
-## Pornire Aplicație
-
-### Backend (Port 3000)
-
-```bash
-cd backend
-npm install
-npm start
-```
-
-Backend-ul va rula pe `http://localhost:3000`
-
-### Frontend (Port 5173)
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Frontend-ul va rula pe `http://localhost:5173`
-
-## API Endpoints
-
-- `GET /api/articles` - Obține toate articolele
-- `GET /api/articles/:id` - Obține un articol specific
-
-## Tehnologii
-
-### Backend
-- Node.js
-- Express
-- CORS
-- Faker.js (pentru date mock)
-
-### Frontend
-- React
-- Vite
-- CSS3
-
-## Culori
-
-- **#CB769E** - Roz (accent)
-- **#F5F5F4** - Alb-crem (background)
-- **#011F28** - Albastru închis (text și sidebar)
+3. login register cu baze de date functionala pentru login logout
+doua view-uri
+infrastructura de baza de date pentru login si register 
+si rolurile : admin care are crud pe tot (rosu)
+editor cu elevated rights (galben)
+jurnalist care poate (albastru)
+user care poate (verde)
+ 
