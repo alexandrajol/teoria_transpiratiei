@@ -157,6 +157,13 @@ body {
   font-style: italic;
 }
 
+.loading {
+  padding: 20px;
+  text-align: center;
+  color: rgba(245, 245, 244, 0.7);
+  font-style: italic;
+}
+
 @media (max-width: 768px) {
   .app {
     flex-direction: column;
