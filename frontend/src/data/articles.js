@@ -10,7 +10,8 @@ const generateArticles = () => {
       author: faker.person.fullName(),
       date: faker.date.between({ from: '2024-01-01', to: '2026-06-13' }),
       content: faker.lorem.paragraphs({ min: 5, max: 10 }, '\n\n'),
-      category: faker.helpers.arrayElement(['Știri', 'Sport', 'Cultură', 'Știință', 'Evenimente'])
+      category: faker.helpers.arrayElement(['Știri', 'Sport', 'Cultură', 'Știință', 'Evenimente']),
+      image: `https://picsum.photos/seed/${i + 1}/800/400`
     });
   }
 

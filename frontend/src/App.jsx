@@ -41,6 +41,11 @@ function App() {
         <section className="article-detail">
           {selectedArticle ? (
             <>
+              <img
+                src={selectedArticle.image}
+                alt={selectedArticle.title}
+                className="article-image"
+              />
               <h2>{selectedArticle.title}</h2>
               <div className="article-meta">
                 <span className="article-author">{selectedArticle.author}</span> • {formatDate(selectedArticle.date)} • {selectedArticle.category}
