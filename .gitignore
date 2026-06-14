@@ -49,25 +49,6 @@ desktop.ini
 # Executables
 *.exe
 
-# Markdown documentation (temporary docs)
-*_SUMMARY.md
-*_GUIDE.md
-*_FEATURE.md
-*_FIX.md
-*_IMPLEMENTATION.md
-*_CHECKLIST.md
-*_ARCHITECTURE.md
-*_INFO.md
-*_INSTRUCTIONS.md
-*_DASHBOARD.md
-*_LOCATIONS.md
-*_WORKFLOW.md
-*_REFERENCE.md
-TROUBLESHOOTING_*.md
-DEBUG_*.md
-SETUP_*.md
-QUICK_*.md
-
 # Test files (shell scripts)
 test-*.sh
 test-*.js
